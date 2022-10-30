@@ -149,7 +149,7 @@
 }
 
 /* Completed */
-.aim__name-complet {
+.completed__list .aim__name {
   text-decoration: line-through;
   color: #888;
 }
