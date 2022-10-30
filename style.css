@@ -45,12 +45,12 @@
 }
 
 .todo-task__list, .completed__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .aim, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .button {
@@ -59,9 +59,9 @@
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 
 }
 .button:hover {
@@ -91,7 +91,7 @@ label[for="new-task"] {
   border-radius: 6px;
   font-family: 'Lato', sans-serif;
   color: #888;
-  outline:none;
+  outline: none;
 }
 
 .input:focus {
@@ -155,14 +155,14 @@ label[for="new-task"] {
 
 /* Edit Task */
 .aim .input {
-  display:none
+  display: none
 }
 
 .aim__edit-mode .input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .aim__edit-mode .aim__name {
-  display:none;
+  display: none;
 }
