@@ -42,9 +42,7 @@
 .aim, .title {
   list-style:none;
 }
-input, button{
-  outline:none;
-}
+
 .button {
   background: none;
   border: 0px;
@@ -53,6 +51,8 @@ input, button{
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline:none;
+
 }
 .button:hover {
   color: #3a3a3a;
@@ -77,8 +77,9 @@ label[for="new-task"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #888;
+  outline:none;
 }
 .input:focus {
   color: #333;
