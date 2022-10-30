@@ -37,7 +37,7 @@
 .input, .aim__name {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-aim__wrapper {
@@ -134,7 +134,7 @@ label[for="new-task"] {
 }
 
 .aim .input {
-  width: 226px
+  width: 226px;
 }
 
 .img-pointer {
@@ -149,18 +149,18 @@ label[for="new-task"] {
 
 /* Completed */
 .aim__name-complet {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .aim .input {
-  display: none
+  display: none;
 }
 
 .aim__edit-mode .input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .aim__edit-mode .aim__name {
