@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.input, .aim__name {
+.input, 
+.aim__name {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -44,7 +45,8 @@
   display: flex;
 }
 
-.todo-task__list, .completed__list {
+.todo-task__list, 
+.completed__list {
   margin: 0;
   padding: 0px;
 }
